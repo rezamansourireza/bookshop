@@ -1,0 +1,15 @@
+// custom variables
+$primary: #424242 ;
+$light: #fafafa;
+
+
+$theme-colors: (
+  "primary":    $primary,
+  "success":    #198754,
+  "light":      $light,
+  "purplight":  #e1bee7,
+  "purpdark":   #4a148c    
+);
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
